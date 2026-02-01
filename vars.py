@@ -17,9 +17,9 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "7915652913"))
 ADMINS = [int(x) for x in os.environ.get("ADMINS", "7915652913").split()]  # Default to owner ID
 
 # Channel Configuration
-PREMIUM_CHANNEL = ""
+PREMIUM_CHANNEL = "https://t.me/+7Pohqd5VG0w3ZGI1"
 # Thumbnail Configuration
-THUMBNAILS = list(map(str, os.environ.get("THUMBNAILS", "").split())) # Image Link For Default Thumbnail 
+THUMBNAILS = list(map(str, os.environ.get("THUMBNAILS", "https://files.catbox.moe/fh731v.jpg").split())) # Image Link For Default Thumbnail 
 
 # Web Server Configuration
 WEB_SERVER = os.environ.get("WEB_SERVER", "False").lower() == "true"
@@ -59,6 +59,7 @@ Please contact the admin to get access.</blockquote>""",
 
 <blockquote>Use format: {format}</blockquote>"""
 }
+
 
 
 
