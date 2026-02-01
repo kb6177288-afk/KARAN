@@ -8,7 +8,7 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN", "0")
 
 CREDIT = os.environ.get("CREDIT", "★ K•A•R•A•N ★")
 # MongoDB Configuration
-DATABASE_NAME = os.environ.get("DATABASE_NAME", "KITTU:fxkBgkwEcMN8mcZw")
+DATABASE_NAME = os.environ.get("DATABASE_NAME", "KITTU")
 DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://KITTU:fxkBgkwEcMN8mcZw@cluster0.dn3dgzb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")  # Add your own atlas db
 MONGO_URL = DATABASE_URL  # For auth system
 
@@ -59,6 +59,7 @@ Please contact the admin to get access.</blockquote>""",
 
 <blockquote>Use format: {format}</blockquote>"""
 }
+
 
 
 
